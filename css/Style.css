@@ -72,3 +72,12 @@ padding: 0 1rem;
 .Talen-tabel tbody tr:nth-child(even){
     background: lightcoral;
 }
+.Talen-mobiel{
+    display: none;
+    gap: 1rem;
+}
+.Talen-Card{
+    border: 1px solid white;
+    border-radius: var(--radius);
+    padding: 1rem;
+}
