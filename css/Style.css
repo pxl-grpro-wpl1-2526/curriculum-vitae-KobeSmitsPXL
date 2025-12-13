@@ -93,3 +93,23 @@ footer{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+@media (max-width: 575px) {
+    .Talen-tabel{
+        display: none;
+    }
+    .Talen-mobiel{
+        display: grid;
+    }
+    .profiel{
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media(min-width: 992px){
+    .Talen-mobiel{
+        display: none;
+    }
+    .Talen-tabel{
+        display: table;
+    }
+}
