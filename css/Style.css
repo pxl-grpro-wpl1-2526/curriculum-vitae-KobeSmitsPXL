@@ -81,3 +81,15 @@ padding: 0 1rem;
     border-radius: var(--radius);
     padding: 1rem;
 }
+footer{
+    background: var(--secondary);
+    color:#ffffff;
+    padding: 1rem;
+}
+.footer-inhoud{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
