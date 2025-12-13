@@ -6,7 +6,7 @@
 }
 :root{
     --primary: #bc3d3d;
-    --secondary: white;
+    --secondary: #d56565;
     --background: black;
     --card: black;
     --text: white;
@@ -21,9 +21,11 @@ body{
 }
 header{
     background: linear-gradient(135deg,var(--primary));
-    color:#fff;
+    color:#ffffff;
     text-align: center;
     padding: 3rem 1rem;
+    position: sticky;
+    top: 0;
 }
 main{max-width: 1100px;
 margin: 3rem auto 4rem;
@@ -34,6 +36,7 @@ padding: 0 1rem;
     border-radius: var(--radius);
     padding: 2rem;
     margin-bottom: 2rem;
+    border: 1px solid white;
 }
 .card:hover{
     box-shadow:0 10px 25px red;
@@ -54,4 +57,18 @@ padding: 0 1rem;
 }
 .profiel img:hover{
     box-shadow: 0 15px 35px white;
+}
+.Talen-tabel{
+    width: 100%;
+    border-collapse: collapse;
+    background: #935d5d;
+}
+.Talen-tabel th,.Talen-tabel td{
+    padding: .75rem;
+}
+.Talen-tabel thead{
+    background: var(--secondary); color:black   ;
+}
+.Talen-tabel tbody tr:nth-child(even){
+    background: lightcoral;
 }
