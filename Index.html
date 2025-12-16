@@ -6,12 +6,13 @@
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="css/Style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="css/cv.js"></script>
 </head>
 <body id="top">
-<header>
-    <h1>Kobe Smits</h1>
-</header>
+
 <main>
+    <div class="feature"></div>
+    <div class="content">
 
     <section class="card profiel">
         <h2>Contact</h2>
@@ -34,15 +35,22 @@
         </ul>
     </section>
     <section class="card">
+
         <h2>Vaardigheden en kennis</h2>
         <div>
             <div>
             <h3>Technisch</h3>
-                <ul>
-                    <li>HTLM & CSS</li>
-                    <li>C#</li>
-                    <li>SQL</li>
-                </ul>
+
+                    <div class="skill-container">
+                        <p>HTML & CSS</p>
+                        <div class="skill-bar"><div class="skill-per" style="width: 90%;"></div></div>
+                        <p>C#</p>
+                        <div class="skill-bar"><div class="skill-per" style="width: 60%;"></div></div>
+                        <p>SQL</p>
+                        <div class="skill-bar"><div class="skill-per" style="width: 50%;"></div></div>
+                    </div>
+
+
             </div>
             <div>
                 <h3>Sociaal</h3>
@@ -84,9 +92,12 @@
                 <h3>Winkel medewerker</h3>
                 <span>Colruyt | 2024-2025</span>
                 <p>Klanten helpen aan de kassa en deel van het frigo team!</p>
+                <p>Lees meer <a href="https://i.programmerhumor.io/2022/08/programmerhumor-io-java-memes-javascript-memes-563425cde539e29.jpg">Klik</a> voor meer info</p>
             </div>
         </div>
     </section>
+    </div>
+
 </main>
 <footer>
     <div class="footer-inhoud">
