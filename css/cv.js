@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const fromTop = window.scrollY;
             const blurValue = fromTop / 100;
             feature.style.filter = `blur(${blurValue}px)`;
-            feature.style.webkitFilter = `blur(${blurValue}px)`;
         });
     }
 
@@ -34,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.appendChild(trolBtn);
 
     let attempts = 0;
-    const maxAttempts = 5;
+    const maxAttempts = 3;
 
     const moveButton = () => {
         if (attempts < maxAttempts) {
@@ -75,7 +74,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 function activateHackerMode() {
-    alert("Hacker Mode Activated! 010101");
+    alert("Oei Je bent gehakt!");
     document.body.style.fontFamily = "'Courier New', monospace";
     document.body.style.color = "#00ff00";
     document.querySelectorAll('.card').forEach(c => c.style.borderColor = "#00ff00");
